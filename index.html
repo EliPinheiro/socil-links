@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      font-family: "Inter", sans-serif;
+      background-color: hsl(0, 0%, 8%);
+      color: hsl(0, 0%, 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    img{
+      width: 100px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      background-color: hsl(0, 0%, 12%);
+      width: 380px;
+      height: 610px;
+      align-items: center;
+      padding: 20px 0px;
+      border-radius: 15px;
+      box-shadow: 5px 5px  20px hsl(0, 0%, 20%);
+    }
+    .buttons{
+      display: flex;
+      flex-direction: column;
+    }
+    button{
+      border-radius: 5px;
+      border: none;
+      width: 300px;
+      height: 50px;
+      color: hsl(0, 0%, 100%);
+      background-color: hsl(0, 0%, 20%);
+      font-weight: 600;
+      cursor:pointer;
+      transition: 0.4s ease;
+    }
+    button:hover{
+      background-color: hsl(75, 94%, 57%);
+      color: black;
+    }
+    
+    h4{
+      font-family: In;
+      color: hsl(75, 94%, 57%);
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      margin-top: 0px;
+      margin-top: px;
+    }
+    h1{
+      font-weight: 700;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      margin-top: 5px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+  <img src="assets/images/avatar-jessica.jpeg" alt="A beautiful woman">
+  <h1>Jessica Randall</h1>
+  <h4>London, United Kingdom</h4>
+  <p>"Front-end developer and avid reader."</p>
+  
+      <button class="bu">GitHub</button><br>
+      <button>Frontend Mentor</button><br>
+      <button>LinkedIn</button><br>
+      <button>Twitter</button><br>
+      <button>Instagram</button>
+  
+  </div>
+</body>
+</html>
